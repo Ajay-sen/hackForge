@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+.hero{
+    background-image: radial-gradient(rgba(66, 99, 24, 0.375),
+    rgba(6, 68, 33, 0.259)), url("./src/assets/img/images/doctorbg.jpg");
+    background-size:cover; 
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+      height: 100vh;
+}
+.bro{
+  background-color:rgb(241, 237, 237) ;
+  height:40px;
+  width: 40px;
+  border-radius: 50%;
+  margin:5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2) ;
+  
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin{
+  background:#007bb5;
+  color: white;
+}
+.fa-instagram{
+  background:radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf) ;
+  color:white;
+}
+footer{
+  background-color: rgb(64, 192, 81);
+}
+.heading{
+  font-size: 30px;
+   top:100px;
+color:white;
+   font-weight: bold;  
+}
+.container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height:30vh;
+   background-image: linear-gradient(
+    rgba(8, 79, 39, 0.8), 
+    rgba(8, 37, 79, 0.8)
+  ),url("./images/breadcrumb-2edited.jpg");
+}
+/*bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2*/
+.head1{
+  font-size: 20px;
+  color:#007bb5;
+  text-decoration: underline;
+  text-decoration-color: #007bb5 ;
+}
+.mission{
+  display: block;
+  text-align: center;
+  padding-left: 15%;
+  padding-right:15%;
+}
+.over{
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #007bb5 ;
+}
+.overview{
+  margin:30px;
+}
+.m{
+  margin-bottom: 20px;
+}
+.doctor{
+  margin-left:30%;
+  margin-right:30%;
+  margin-top:2%;
+  
+}
+.search{
+  position: relative;
+  width:30px;
+  height:30px;
+  background-color: #007C9D;
+  border-color: #007C9D;
+  border-radius: 4px ;
+}
+.card{
+  width:490px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.docicon{
+  width: 120px;
+  height: 120px;
+  margin-left:30%;
+  margin-right:30%;
+  border-radius: 50%;
+}
+.allcard{
+  display: flex;
+  flex-wrap: wrap;
+    list-style-type: square;
+    
+    justify-content: space-around;
+ 
+}
+.top{
+  background-color:rgb(171, 171, 216);
+  border-radius: 7% 7% 0 0;
+  display: flex;
+  justify-content: center;
+}
+.info{
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+hr{
+border: 1px solid black;
+}
