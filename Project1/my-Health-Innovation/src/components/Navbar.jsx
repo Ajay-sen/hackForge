@@ -41,11 +41,20 @@ const Navbar=()=>{
                         <Link to ='doctors' spy={true} smooth={true} duration={500} className='hover:text-hoverColor transition-all cursor-pointer'>Doctors</Link>
                         <Link to ='appointments' spy={true} smooth={true} duration={500} className='hover:text-hoverColor transition-all cursor-pointer'>Appointments</Link>
                         <Link to ='about' spy={true} smooth={true} duration={500} className='hover:text-hoverColor transition-all cursor-pointer'>About us</Link>
+                        <button className='hover:text-hoverColor transition-all cursor-pointer' onClick={openForm}>
+                            Contact
+                        </button>
                     </nav>
 
                     <div className="hidden lg:flex">
-                        <button className=' bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out' onClick={openForm}>
-                            Contact
+                       
+
+                        <button className=' bg-brightColor text-white px-4 py-2 m-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out'>
+                            Sign up
+                        </button>
+
+                        <button className=' bg-brightColor text-white px-4 py-2 m-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out'>
+                            Sign in
                         </button>
                     </div>
 
@@ -67,10 +76,19 @@ const Navbar=()=>{
                         <Link to ='doctors' spy={true} smooth={true} duration={500} className='hover:text-hoverColor transition-all cursor-pointer' onClick={closeMenu}>Doctors</Link>
                         <Link to ='appointments' spy={true} smooth={true} duration={500} className='hover:text-hoverColor transition-all cursor-pointer' onClick={closeMenu}>Appointments</Link>
                         <Link to ='about' spy={true} smooth={true} duration={500} className='hover:text-hoverColor transition-all cursor-pointer' onClick={closeMenu}>About us</Link>
+                        <button   className='hover:text-hoverColor transition-all cursor-pointer' onClick={openForm}>
+                            Contact
+                        </button>
+
 
                         <div className="lg:hidden">
-                        <button className=' bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out' onClick={openForm}>
-                            Contact
+                        
+                        <button className=' bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out'>
+                            Sign up
+                        </button>
+
+                        <button className=' bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out'>
+                            SignIn
                         </button>
                     </div>
                 </div>
