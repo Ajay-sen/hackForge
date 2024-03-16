@@ -1,0 +1,11 @@
+->using react, tailwind to create the dashboard .
+-> using the package react-scroll , to enable smooth scrolling behavior within the application
+-> using the react-icons package for icons
+->using the {Link} in the react-scroll package for connecting pages
+
+//NAVBAR
+->used link method analogous to href to connet the different parts
+->using the AiOutlineClose/Menu icons in ternery operator in case of responsiveness
+->lg corresponds to large breakpoint
+
+->using react.slick for the doctors page
